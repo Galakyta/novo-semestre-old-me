@@ -7,3 +7,11 @@ classe abstrata e interface
 assinatura em java
 
 metodo q trabalha em cima de assinatura
+
+CLASSE abstratara propragar assinatura
+
+classes e metodos abstratos
+
+substituicao de liscovi solid
+
+construir e limitacaoes

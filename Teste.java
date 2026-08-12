@@ -16,6 +16,10 @@ public class Teste {
 
         System.out.println(financeiro.getTotalBonus());
     
+
     }
+
+    Funcionario func = new Gerente("silvio", "123", 8000.0, "abc"); 
+
 }
 
