@@ -6,11 +6,8 @@ public class Gerente extends Funcionario {
         this.numeroDeFuncionariosGerenciados = numeroDeFuncionariosGerenciados;
     }
 
-    @Override
-    public double getBonificacao() {
-         double bonusBase = super.getBonificacao();
-         double bonusAdicional = 0.2 * this.numeroDeFuncionariosGerenciados;
-         return bonusBase + bonusAdicional;
-        // return this.salario * (0.2 + this.numeroDeFuncionariosGerenciados);
-    }
+    //@Override tirando o verride pra ter a herança na implkementacao
+    public double getBonificacao( double adicional) {
+        return super.getBonificacao() + adicional;
+        }
 }

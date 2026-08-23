@@ -19,7 +19,5 @@ public class Teste {
 
     }
 
-    Funcionario func = new Gerente("silvio", "123", 8000.0, "abc"); 
-
 }
 
