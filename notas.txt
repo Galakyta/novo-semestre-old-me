@@ -19,3 +19,7 @@ construir e limitacaoes
 assinatura concreta e abstrata
 
 atam
+
+open and close // acoplagem
+
+heuristicas dos concretos
