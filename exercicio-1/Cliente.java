@@ -9,7 +9,10 @@ public class Cliente {
         // aq eu prefiro definir como US pra sempre ter q usar virgula mas é só pq eu tenho preguiça de 
         // descobrir como faz um ignore case entre virgula e ponto 100% das vzs em qlqr ambiente, ja que no meu note por exemplo
         //o vs enche o saco com isso ent sla
-        fabricaDeSeguros fabrica = UIClienteAuto.coletarDados(scanner);
+        /*fabricaDeSeguros fabrica = UIClienteAuto.coletarDados(scanner);
         fabrica.processarContratacao();
+        */
+        fabricaDeSeguroResidencial fabricaResidencial = UIClienteResidencia.coletarDados(scanner);
+        fabricaResidencial.processarContratacao();
     }
 }
